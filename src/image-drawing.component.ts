@@ -62,7 +62,7 @@ export class ImageDrawingComponent implements OnInit, OnChanges {
     @Output() public cancel: EventEmitter<void> = new EventEmitter<void>();
 
     public currentTool = 'brush';
-    public currentSize = 'medium';
+    public currentSize = 'small';
     public currentColor = 'black';
     public i18n: I18nInterface = I18nEn;
 
